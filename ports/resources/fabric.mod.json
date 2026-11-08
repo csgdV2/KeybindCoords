@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "coordsmod",
+  "version": "${version}",
+  "name": "Keybind Coords Hud",
+  "description": "Shows your coordinates with a keybind.",
+  "authors": [
+    "csgd"
+  ],
+  "environment": "client",
+  "icon": "assets/coordsmod/icon.png",
+  "entrypoints": {
+    "client": [
+      "com.coordsmod.CoordsMod"
+    ],
+    "modmenu": [
+      "com.coordsmod.CoordsConfig"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "${minecraft}",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}

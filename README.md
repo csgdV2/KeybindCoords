@@ -1,4 +1,6 @@
-# CoordsDisplay — Fabric Mod for Minecraft 1.21.1
+# Keybind Coords Hud - Fabric Mod for Minecraft 1.21.11
+
+Builds for Minecraft **26.1, 26.1.1, 26.1.2, 26.2, and 26.3** are available through the [modern build profiles](ports/README.md). Run `build-modern.bat` to build all five. The root build below remains for 1.21.11.
 
 Shows your XYZ coordinates as a HUD overlay with full customisation via ModMenu.
 
@@ -26,10 +28,10 @@ Shows your XYZ coordinates as a HUD overlay with full customisation via ModMenu.
 
 ## Required Dependencies (put all JARs in `mods/`)
 
-1. **Fabric Loader** ≥ 0.16.0 — https://fabricmc.net/use/
-2. **Fabric API** 0.102.0+1.21.1 — https://modrinth.com/mod/fabric-api
-3. **ModMenu** 11.x — https://modrinth.com/mod/modmenu
-4. **Cloth Config** 15.x (Fabric) — https://modrinth.com/mod/cloth-config
+1. **Fabric Loader** ≥ 0.18.0 — https://fabricmc.net/use/
+2. **Fabric API** 0.141.1+1.21.11 — https://modrinth.com/mod/fabric-api
+3. **ModMenu** 17.x — https://modrinth.com/mod/modmenu
+4. **Cloth Config** 21.11.x (Fabric) — https://modrinth.com/mod/cloth-config
 
 ---
 
